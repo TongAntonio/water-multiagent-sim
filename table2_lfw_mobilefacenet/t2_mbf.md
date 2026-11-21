@@ -1,0 +1,8 @@
+| Outcome | Result |
+|---|---|
+| Verification errors | Accuracy 99.47% ± 0.30% (10-fold); at validation-fixed FMR≤1%: FNMR 0.40% [0.21%, 0.70%], FMR 1.10%; trials 3000 genuine / 3000 impostor; pair acquisition failures 0.00% |
+| Identification errors | G=2: FPIR 0.00%, FNIR 1.25% (τ_id=0.16, δ=0.00); G=10: FPIR 0.00%, FNIR 0.29% (τ_id=0.25, δ=0.00); G=50: FPIR 1.30%, FNIR 0.46% (τ_id=0.27, δ=0.00); G=100: FPIR 1.55%, FNIR 0.73% (τ_id=0.28, δ=0.00) (open-set, identity-disjoint calibration) |
+| Acquisition failures | Clean: 0.00%; lowlight: 73.17%; blur: 60.50%; occlusion_lower: 0.33%; lowres: 0.00%; jpeg20: 0.00% |
+| Latency | Acquisition-to-decision (G=100, 1 thread): median 19 ms, P95 21 ms on i386 |
+| Resource use | Peak RSS 113 MB; models 16 MB; energy/attempt: not measured (no RAPL access; use a USB power meter and pass --measured-energy-j / --measured-attempts) |
+| Population coverage | LFW (funneled) 10-fold pairs: 7701 images, 4281 identities, 6000 pairs; adult public figures (press photos); no age/sex/skin-tone labels; children not represented |

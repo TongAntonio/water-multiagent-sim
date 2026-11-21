@@ -1,0 +1,17 @@
+\begin{table}[!t]
+\caption{Sensitivity to enrolment coverage $c_{\mathrm{enr}}$ at $\rho=0.2$ (mean over 30 test seeds). Below true priority: vulnerable requests whose effective priority score is below their true eligibility score, including temporary staff-assigned priority. Unauth.: requests with priority above the true eligibility.}
+\label{tabenr}
+\centering\footnotesize
+\begin{tabular}{llcccc}
+\toprule
+Config. & $c_{\mathrm{enr}}$ & PC & Below true priority [\%] & Vuln. wait [min] & Unauth. [\%] \\
+\midrule
+B3 & 0.4 & 0.949 & 61.9 & 13.7 & 0.2 \\
+B3 & 0.6 & 0.963 & 42.6 & 13.0 & 0.2 \\
+B3 & 0.8 & 0.979 & 23.3 & 12.3 & 0.2 \\
+B3 & 1.0 & 0.995 & 3.9 & 11.7 & 0.2 \\
+\midrule
+B1 (claims) & -- & 0.949 & 10.2 & 12.6 & 5.7 \\
+\bottomrule
+\end{tabular}
+\end{table}

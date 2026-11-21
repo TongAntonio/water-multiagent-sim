@@ -1,0 +1,20 @@
+\begin{table}[!t]
+\caption{Fallback pathways at $\rho=0.2$ (mean over 30 test seeds). Delay: time until the authorised priority becomes effective. Priority: share of requests granted any eligibility priority / priority at least equal to the true eligibility score. Completed and wait: B3 (authenticated) vs O1 (oracle identity).}
+\label{tabfb}
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrrrrr}
+\toprule
+ & $n$ & Delay & \multicolumn{2}{c}{Priority [\%]} & \multicolumn{2}{c}{Completed [\%]} & Wait [min] \\
+\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+Reason & per run & [min] & any & full & B3 & O1 & B3 / O1 \\
+\midrule
+Face failure $\rightarrow$ token & 11.7 & 2.0 & 100 & 100 & 91.8 & 91.0 & 12.8 / 12.9 \\
+Not enrolled $\rightarrow$ staff & 99.3 & 10.9 & 91 & 0 & 87.3 & 89.3 & 16.0 / 11.9 \\
+Token lost $\rightarrow$ staff & 10.4 & 10.7 & 89 & 0 & 85.6 & 88.2 & 16.7 / 12.5 \\
+Face failure, no token $\rightarrow$ staff & 5.2 & 10.4 & 89 & 0 & 90.3 & 93.6 & 15.2 / 9.9 \\
+All staff-assisted & 114.9 & 10.9 & 90 & 0 & 87.3 & 89.4 & 16.0 / 11.9 \\
+No fallback (vulnerable) & 365.3 & 0.0 & 100 & 100 & 90.4 & 89.9 & 11.1 / 11.7 \\
+\bottomrule
+\end{tabular}
+\end{table}

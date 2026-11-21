@@ -1,0 +1,29 @@
+\begin{table*}[!t]
+\caption{Failure recovery at $\rho=0.2$. Each fault lasts 60 min and starts at a random time between 2 h and 4 h into the 8~h shift. Recovery: time after the fault ends until the backlog excess over the fault-free twin stays within 10\% of the mean backlog for 10 min (median [IQR]); a value of 0 means no measurable degradation. Deficit: loss of delivered volume relative to the fault-free twin (mean [95\% CI]). Not rec.: runs not recovered by the end of the 8~h horizon (of 30).}
+\label{tabflt}
+\centering\footnotesize
+\begin{tabular}{llcccccc}
+\toprule
+Fault & Config. & Recovery [min] & Peak backlog excess & Deficit [\%] & $\Delta$ wait [min] & $\Delta$ aband. [pp] & Not rec. \\
+\midrule
+Equipment outage (4 of 20) & B0 & 54 [38, 75] & 27.2 & 0.90 [0.67, 1.14] & $+$1.10 & $+$0.77 & 0 \\
+ & B3 & 59 [32, 72] & 27.1 & 0.96 [0.70, 1.21] & $+$1.11 & $+$0.82 & 0 \\
+ & B4 & 50 [30, 78] & 26.8 & 0.90 [0.64, 1.16] & $+$1.06 & $+$0.79 & 0 \\
+ & B5 & 49 [29, 74] & 27.1 & 0.95 [0.70, 1.19] & $+$1.06 & $+$0.83 & 0 \\
+\midrule
+Stock-out (4 of 20) & B0 & 45 [34, 64] & 27.3 & 1.35 [1.08, 1.62] & $+$1.27 & $+$0.89 & 0 \\
+ & B3 & 47 [29, 66] & 27.1 & 1.37 [1.06, 1.69] & $+$1.26 & $+$0.94 & 0 \\
+ & B4 & 50 [30, 74] & 27.2 & 1.42 [1.07, 1.77] & $+$1.28 & $+$0.99 & 1 \\
+ & B5 & 44 [26, 66] & 27.3 & 1.44 [1.10, 1.79] & $+$1.23 & $+$0.98 & 1 \\
+\midrule
+Network partition & B0 & 0 [0, 0] & 2.6 & 0.05 [$-$0.04, 0.13] & $+$0.02 & $+$0.04 & 0 \\
+ & B3 & 0 [0, 0] & 2.9 & 0.07 [$-$0.01, 0.14] & $+$0.02 & $+$0.05 & 0 \\
+ & B4 & 0 [0, 0] & 2.5 & 0.03 [$-$0.05, 0.10] & $-$0.01 & $+$0.03 & 0 \\
+ & B5 & 0 [0, 10] & 6.9 & 0.25 [0.16, 0.34] & $+$0.15 & $+$0.22 & 0 \\
+\midrule
+Policy crash $\rightarrow$ local rule & B4 & 0 [0, 30] & 10.6 & 0.43 [0.26, 0.59] & $+$0.30 & $+$0.35 & 0 \\
+\midrule
+Random policy proposals & B4 & 119 [96, 140] & 97.9 & 3.41 [3.01, 3.81] & $+$3.86 & $+$3.10 & 0 \\
+\bottomrule
+\end{tabular}
+\end{table*}

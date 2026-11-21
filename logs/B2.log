@@ -1,0 +1,7 @@
+B2 {"update": 9, "mean_return": 46.0555, "entropy": 0.4322, "t": 17.5147, "val_return": 62.7009, "val_delivered": 0.8406, "val_p95": 66.7165, "best": true}
+B2 {"update": 19, "mean_return": 62.2616, "entropy": 0.2102, "t": 36.1466, "val_return": 62.7009, "val_delivered": 0.8406, "val_p95": 66.7165}
+B2 {"update": 29, "mean_return": 62.4874, "entropy": 0.24, "t": 55.0049, "val_return": 62.7009, "val_delivered": 0.8406, "val_p95": 66.7165}
+B2 {"update": 39, "mean_return": 62.4199, "entropy": 0.3408, "t": 72.8338, "val_return": 62.7009, "val_delivered": 0.8406, "val_p95": 66.7165}
+B2 {"update": 49, "mean_return": 57.0269, "entropy": 0.4789, "t": 90.7256, "val_return": 62.7009, "val_delivered": 0.8406, "val_p95": 66.7165}
+B2 {"update": 59, "mean_return": 54.1741, "entropy": 0.5657, "t": 108.735, "val_return": 62.7009, "val_delivered": 0.8406, "val_p95": 66.7165}
+B2 {"update": 69, "mean_return": 70.011, "entropy": 0.5752, "t": 127.6584, "val_return": 62.7009, "val_delivered": 0.8406, "val_p95": 66.7165}

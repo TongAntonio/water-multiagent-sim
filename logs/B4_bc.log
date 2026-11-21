@@ -1,0 +1,14 @@
+BC accuracy 0.9898 samples 720000
+B4 bc initial val_return 72.807 delivered 0.8884
+B4 {"update": 9, "mean_return": 71.2092, "entropy": 0.0399, "t": 31.5371, "val_return": 73.0877, "val_delivered": 0.8899, "val_p95": 55.6995, "best": true}
+B4 {"update": 19, "mean_return": 71.234, "entropy": 0.0371, "t": 63.4088, "val_return": 73.2155, "val_delivered": 0.8901, "val_p95": 56.0001, "best": true}
+B4 {"update": 29, "mean_return": 64.633, "entropy": 0.0455, "t": 96.965, "val_return": 73.4292, "val_delivered": 0.8909, "val_p95": 55.9966, "best": true}
+B4 {"update": 39, "mean_return": 60.4461, "entropy": 0.0469, "t": 141.0818, "val_return": 73.4276, "val_delivered": 0.8909, "val_p95": 56.3022}
+B4 {"update": 49, "mean_return": 68.4437, "entropy": 0.0436, "t": 214.1358, "val_return": 73.5389, "val_delivered": 0.891, "val_p95": 56.2005, "best": true}
+B4 {"update": 59, "mean_return": 75.2042, "entropy": 0.0404, "t": 289.7049, "val_return": 73.5259, "val_delivered": 0.8908, "val_p95": 56.4478}
+B4 {"update": 69, "mean_return": 63.861, "entropy": 0.0435, "t": 366.0503, "val_return": 73.3787, "val_delivered": 0.8903, "val_p95": 56.6065}
+B4 {"update": 79, "mean_return": 71.1706, "entropy": 0.0385, "t": 441.8232, "val_return": 73.2247, "val_delivered": 0.8903, "val_p95": 56.5817}
+B4 {"update": 89, "mean_return": 71.3118, "entropy": 0.0431, "t": 514.7821, "val_return": 73.3786, "val_delivered": 0.8902, "val_p95": 56.5848}
+B4 {"update": 99, "mean_return": 62.979, "entropy": 0.049, "t": 574.6574, "val_return": 73.3014, "val_delivered": 0.89, "val_p95": 56.5009}
+B4 {"update": 109, "mean_return": 72.9038, "entropy": 0.0326, "t": 609.9044, "val_return": 73.3013, "val_delivered": 0.8898, "val_p95": 56.6541}
+B4 {"update": 119, "mean_return": 69.7986, "entropy": 0.0386, "t": 644.2741, "val_return": 73.3405, "val_delivered": 0.8899, "val_p95": 56.7331}

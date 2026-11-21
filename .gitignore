@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+lfw_data/
+models_face/
+*_cache*.npz
+fake_lfw/
+fake_out/
