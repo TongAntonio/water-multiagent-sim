@@ -3,7 +3,8 @@
 Code, data and results behind the paper
 
 > *An Integrated Security-Aware Multi-Agent Framework for Priority-Aware, Geo-Tracked, and Identity-Verified Water Distribution in Smart-City Disaster Relief* (IEEE conference draft).
-> Cite this software: see [`CITATION.cff`](CITATION.cff) (GitHub's "Cite this repository" button). A DOI will be added once the first release is archived.
+> Cite this software: see [`CITATION.cff`](CITATION.cff) (GitHub's "Cite this repository" button).
+> Archived on Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24430102.svg)](https://doi.org/10.5281/zenodo.24430102) (all versions). Release v1.0.0, the version behind the paper's results: [10.5281/zenodo.24430103](https://doi.org/10.5281/zenodo.24430103).
 
 Contents: a discrete-event multi-agent simulator (configurations B0-B5, O1), parameter-sharing PPO, fault-injection and failure-recovery experiments,
 a face-route sensitivity analysis, and the identity-evaluation script for Table II (LFW verification / open-set identification with MobileFaceNet).

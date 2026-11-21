@@ -32,6 +32,11 @@ authors:
     orcid: "https://orcid.org/0009-0009-7605-8739"
 repository-code: "https://github.com/TongAntonio/water-multiagent-sim"
 license: MIT
+doi: 10.5281/zenodo.24430102
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24430103
+    description: "Version v1.0.0 archived on Zenodo"
 version: 1.0.0
 date-released: "2026-11-22"
 keywords:
