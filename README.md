@@ -3,7 +3,7 @@
 Code, data and results behind the paper
 
 > *An Integrated Security-Aware Multi-Agent Framework for Priority-Aware, Geo-Tracked, and Identity-Verified Water Distribution in Smart-City Disaster Relief* (IEEE conference draft).
-> Citation / DOI: to be added when the paper is published.
+> Cite this software: see [`CITATION.cff`](CITATION.cff) (GitHub's "Cite this repository" button). A DOI will be added once the first release is archived.
 
 Contents: a discrete-event multi-agent simulator (configurations B0-B5, O1), parameter-sharing PPO, fault-injection and failure-recovery experiments,
 a face-route sensitivity analysis, and the identity-evaluation script for Table II (LFW verification / open-set identification with MobileFaceNet).
@@ -20,7 +20,7 @@ This is disclosed in the paper's Acknowledgment section in line with the IEEE po
 
 * **LFW** (Labeled Faces in the Wild) images and pairs are downloaded by the script; follow the LFW terms of use. LFW contains adult public figures only.
 * **Face models** (`buffalo_s` / `buffalo_l`, SCRFD + MobileFaceNet / ArcFace-R50, insightface project) are downloaded by the script and are for **research / non-commercial use only**.
-* **Code licence:** none chosen yet (all rights reserved until the repository owner adds a `LICENSE` file).
+* **Code licence:** the code in this repository is released under the MIT licence (see [`LICENSE`](LICENSE)). It does not cover LFW or the face models above, which keep their own terms.
 
 ## Quick start
 

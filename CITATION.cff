@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+type: software
+title: "Multi-agent water-distribution simulator and identity evaluation"
+abstract: >-
+  Discrete-event multi-agent simulator for priority-aware water distribution
+  at multiple dispensing points (configurations B0-B5 and an oracle O1), with
+  parameter-sharing PPO, fault-injection and failure-recovery experiments, a
+  face-route failure sensitivity analysis, and the identity-evaluation script
+  (LFW verification and open-set identification with a MobileFaceNet pipeline)
+  behind the results tables of the accompanying paper.
+authors:
+  - family-names: Rachmawati
+    given-names: Dian
+    affiliation: "Department of Computer Science, Universitas Sumatera Utara, Medan, Indonesia"
+    orcid: "https://orcid.org/0000-0002-6939-893X"
+  - family-names: Giannakopoulos
+    given-names: Georgios
+    affiliation: "National and Kapodistrian University of Athens, Greece"
+    orcid: "https://orcid.org/0000-0002-3707-3276"
+  - family-names: Shaikh
+    given-names: Khushbu Mehboob
+    affiliation: "Twilio Inc., Irving, Texas, United States"
+    orcid: "https://orcid.org/0009-0000-8681-5830"
+  - family-names: Agrawal
+    given-names: Rakesh Kumar
+    affiliation: "Atos, Texas, United States"
+    orcid: "https://orcid.org/0009-0009-7113-5539"
+  - family-names: Chumyen
+    given-names: Wuttachai
+    affiliation: "Independent Researcher, Bangkok, Thailand"
+    orcid: "https://orcid.org/0009-0009-7605-8739"
+repository-code: "https://github.com/TongAntonio/water-multiagent-sim"
+license: MIT
+version: 1.0.0
+date-released: "2026-11-22"
+keywords:
+  - multi-agent systems
+  - reinforcement learning
+  - water distribution
+  - disaster relief
+  - smart city
+  - face verification
+  - simulation
